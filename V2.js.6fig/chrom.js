@@ -7,7 +7,6 @@
 
 function init() {
     var button = document.getElementById("runChromate");
-
     button.onclick = changeBackgroundColor;
 }
 
