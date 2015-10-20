@@ -1,0 +1,34 @@
+/**
+ * Chrom: Color Viewer
+ *
+ * Mitch Gundrum
+ *
+ * 2015
+ */
+body {
+    margin: auto;
+}
+
+#color {
+    display: inline-block;
+    width:201px;
+    vertical-align: middle;
+    height:39px;
+    background-color:#FFF;
+    padding: auto;
+	margin: auto;
+	font-size: 33px;
+    font-family: serif;
+	text-align: center;
+    border: 3px;
+}
+
+#button {
+	display: inline;
+    padding: auto;
+	margin-top: auto;
+	margin-left: auto;
+    font-family: cursive;
+    background-color: #FFF;
+    border: 3px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Chrom</title>
+        <link rel="stylesheet" type="text/css" href="chrom.css"/>
+        <script type="text/javascript" src="chrom.js"></script>
+    </head>
+    <body>
+        <header id="header"></header>
+
+        <section id="userInput">
+            <form id="chromInputForm" action="chrom.html#" autocomplete="off">
+                <input type="text"  id="userString" name="userString" maxlength="6" placeholder="123456"/>
+                <input type="submit" id="runChromate" name="submitButton" value="Chromate"/>
+            </form>
+        </section>
+
+        <div id="outputDiv"></div>
+
+        <footer id="footer">
+            <p>Created by: Mitch Gundrum</p>
+            <script>
+                init();
+                var revisedDate = document.lastModified;
+                document.write("Web page was last revised: " + revisedDate);
+            </script>
+        </footer>
+    </body>
+</html>

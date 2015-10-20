@@ -1,0 +1,23 @@
+#color {
+	position: fixed;
+    width:222px;
+    height:100px;
+    background-color:#FFF;
+    padding:10px;
+    z-index:200;
+    top: 50%;
+	left: 45%;
+	margin-top: auto;
+	margin-left: auto;
+	font-size: 35px;
+	text-align: center;
+}
+
+#button {
+	position: fixed;
+    z-index:200;
+    top: 64%;
+	left: 50%;
+	margin-top: auto;
+	margin-left: auto;
+}
